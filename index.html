@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site legal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="title" id="title">hello world</h1>
+
+    <button class="btn" id="btn">Trocar cor do title</button>
+
+    <script>
+        const title = document.getElementById("title")
+        const btn = document.getElementById("btn")
+        
+        btn.addEventListener("click", () =>{
+            if (title.style.color == "red"){
+                title.style.color = "blue"
+            }else{
+                title.style.color = "red"
+            }
+        })
+    </script>
+</body>
+</html>

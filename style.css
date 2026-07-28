@@ -1,0 +1,27 @@
+body { 
+  font-family: sans-serif;
+  color: white; 
+  background-color: #121212; 
+  width: 100%; 
+  min-height: 100dvh; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px;
+} 
+
+.btn { 
+  border: none; 
+  background-color: rgb(211, 0, 211); 
+  color: white; 
+  font-weight: 800; 
+  border-radius: 5px; 
+  padding: 12px 24px;
+  cursor: pointer; 
+  transition: 0.2s; 
+}
+
+.btn:hover {
+  background-color: rgb(170, 0, 170); 
+}
