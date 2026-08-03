@@ -34,7 +34,7 @@ img{
   --size: 80px;
   width: var(--size);
   height: var(--size);
-  
+
   border-radius: 15px;
 
 }
