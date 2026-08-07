@@ -45,7 +45,7 @@ main{
     margin-top: 16px;
   }
 
-.btn{
+button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,11 +61,11 @@ main{
     transition: 300ms ease;
 }
 
-.btn:hover{
+button:hover{
     background-color: #cc00e1;
     transform: scale(1.05);
 }
 
-.btn:active{
+button:active{
     transform: scale(0.99);
 }
