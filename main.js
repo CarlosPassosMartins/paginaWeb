@@ -6,5 +6,3 @@ btn.addEventListener('click', ()=>{
     valor++
     contador.textContent = valor;
 })
-
-
